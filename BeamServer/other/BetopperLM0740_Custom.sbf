@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 3,
+  "profileVersion": 1,
+  "manufacturer": "Betopper",
+  "model": "LM0740",
+  "modes": {
+    "18-Channel Mode": {
+      "channels": {
+        "Pan": {
+          "address16BitMsb": 1,
+          "channel16BitLsb": "Pan Fine",
+          "highlightValue": 32767
+        },
+        "Pan Fine": {
+          "address16BitLsb": 2
+        },
+        "Tilt": {
+          "address16BitMsb": 3,
+          "channel16BitLsb": "Tilt Fine",
+          "highlightValue": 32767
+        },
+        "Tilt Fine": {
+          "address16BitLsb": 4
+        },
+        "Pan/Tilt Speed": {
+          "address8Bit": 5
+        },
+        "Dim": {
+          "address8Bit": 6,
+          "highlightValue": 255
+        },
+        "Strobe": {
+          "address8Bit": 7,
+          "highlightValue": 255,
+          "defaultValue": 255
+        },
+        "Red": {
+          "address8Bit": 8
+        },
+        "Green": {
+          "address8Bit": 9
+        },
+        "Blue": {
+          "address8Bit": 10
+        },
+        "White": {
+          "address8Bit": 11,
+          "highlightValue": 255
+        },
+        "CCT": {
+          "address8Bit": 12
+        },
+        "Macro": {
+          "address8Bit": 13
+        },
+        "Zoom": {
+          "address8Bit": 14
+        },
+        "Zoom Rotation": {
+          "address8Bit": 15
+        },
+        "Effect": {
+          "address8Bit": 16
+        },
+        "Effect Speed": {
+          "address8Bit": 17
+        },
+        "Reset": {
+          "address8Bit": 18
+        }
+      },
+      "modulation": {
+        "pan": {
+          "channel": "Pan",
+          "fallback": "last",
+          "mergeMode": "weightedaverage"
+        },
+        "tilt": {
+          "channel": "Tilt",
+          "fallback": "last",
+          "mergeMode": "weightedaverage"
+        },
+        "zoom": {
+          "channel": "Zoom",
+          "mergeMode": "weightedaverage",
+          "fallback": "none"
+        },
+        "pantiltspeed": {
+          "channel": "Pan/Tilt Speed",
+          "mergeMode": "weightedaverage",
+          "fallback": "none"
+        },
+        "programspeed": {
+          "channel": "Effect Speed",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "program": {
+          "channel": "Effect",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "zoomrotation": {
+          "channel": "Zoom Rotation",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "colortemperature": {
+          "channel": "CCT",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "colorprogram": {
+          "channel": "Macro",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "shutterstrobe": {
+          "channel": "Strobe",
+          "mergeMode": "htp",
+          "fallback": "none"
+        }
+      },
+      "colorspace": {
+        "colorspaceType": "rgbwi",
+        "additive": {
+          "red": {
+            "channel": "Red"
+          },
+          "green": {
+            "channel": "Green"
+          },
+          "blue": {
+            "channel": "Blue"
+          },
+          "white": {
+            "channel": "White"
+          },
+          "intensity": {
+            "channel": "Dim"
+          }
+        },
+        "subtractive": {}
+      },
+      "cells": []
+    },
+    "12-Channel Mode": {
+      "channels": {
+        "Pan": {
+          "address16BitMsb": 1,
+          "channel16BitLsb": "Pan Fine",
+          "highlightValue": 32768
+        },
+        "Pan Fine": {
+          "address16BitLsb": 2
+        },
+        "Tilt": {
+          "address16BitMsb": 3,
+          "channel16BitLsb": "Tilt Fine",
+          "highlightValue": 32768
+        },
+        "Tilt Fine": {
+          "address16BitLsb": 4
+        },
+        "Dim": {
+          "address8Bit": 6,
+          "highlightValue": 255
+        },
+        "Strobe": {
+          "address8Bit": 7,
+          "highlightValue": 255,
+          "defaultValue": 255
+        },
+        "Chroma": {
+          "address8Bit": 8
+        },
+        "Saturation": {
+          "address8Bit": 9
+        },
+        "Zoom": {
+          "address8Bit": 10
+        },
+        "Zoom Rotation": {
+          "address8Bit": 11
+        },
+        "Reset": {
+          "address8Bit": 12
+        },
+        "Pan/Tilt Speed": {
+          "address8Bit": 5
+        }
+      },
+      "modulation": {
+        "strobe": {
+          "channel": "Strobe",
+          "mergeMode": "htp",
+          "fallback": "none"
+        },
+        "chroma": {
+          "channel": "Chroma",
+          "mergeMode": "weightedaverage",
+          "fallback": "none"
+        },
+        "saturation": {
+          "channel": "Saturation",
+          "mergeMode": "weightedaverage",
+          "fallback": "none"
+        },
+        "zoom": {
+          "channel": "Zoom",
+          "mergeMode": "weightedaverage",
+          "fallback": "none"
+        },
+        "pantiltspeed": {
+          "channel": "Pan/Tilt Speed",
+          "mergeMode": "addition",
+          "fallback": "none"
+        },
+        "zoomrotation": {
+          "channel": "Zoom Rotation",
+          "mergeMode": "htp",
+          "fallback": "none"
+        }
+      },
+      "colorspace": {
+        "colorspaceType": "dimmer",
+        "additive": {
+          "intensity": {
+            "channel": "Dim"
+          }
+        },
+        "subtractive": {}
+      },
+      "cells": []
+    }
+  }
+}
