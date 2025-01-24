@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pattr.BeamClientBPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"BeamClientBP::yk.pattr.BeamClientBP" : [ -1 ],
+					"BeamClientBP::blue" : [ 1.0 ],
+					"BeamClientBP::dim" : [ 0.5 ],
+					"BeamClientBP::effect" : [ 0 ],
+					"BeamClientBP::effectSpeed" : [ 1.0 ],
+					"BeamClientBP::green" : [ 1.0 ],
+					"BeamClientBP::motorSpeed" : [ 1.0 ],
+					"BeamClientBP::pan" : [ 0.0 ],
+					"BeamClientBP::red" : [ 1.0 ],
+					"BeamClientBP::strobe" : [ 0.0 ],
+					"BeamClientBP::swatch" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0 ],
+					"BeamClientBP::tilt" : [ 1.0 ],
+					"BeamClientBP::zoom" : [ 0.0 ],
+					"BeamClientBP::zoomRotation" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
