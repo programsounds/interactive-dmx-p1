@@ -2,8 +2,8 @@
 	"name" : "BeamServer",
 	"version" : 1,
 	"creationdate" : 3819899549,
-	"modificationdate" : 3819900325,
-	"viewrect" : [ 1158.0, 92.0, 300.0, 500.0 ],
+	"modificationdate" : 3820539842,
+	"viewrect" : [ 1163.0, 63.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,11 +18,11 @@
 
 		}
 ,
-		"media" : 		{
+		"code" : 		{
 
 		}
 ,
-		"code" : 		{
+		"externals" : 		{
 
 		}
 ,
