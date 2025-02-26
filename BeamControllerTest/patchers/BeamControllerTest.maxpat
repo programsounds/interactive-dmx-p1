@@ -1562,8 +1562,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BeamControllerBP.maxpat",
-				"bootpath" : "D:/Dev/Max/interactive-dmx-v1/BeamController",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1575,75 +1575,85 @@
 			}
 , 			{
 				"name" : "pattr.BeamControllerBPTest.json",
-				"bootpath" : "~/Desktop",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/data",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendOSC.maxpat",
-				"bootpath" : "D:/Dev/Max/interactive-dmx-v1/BeamController/lib",
-				"patcherrelativepath" : "../lib",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setOSCHost.maxpat",
-				"bootpath" : "D:/Dev/Max/interactive-dmx-v1/BeamController/lib",
-				"patcherrelativepath" : "../lib",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.dblClick.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/dblClick",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.listInterp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/listInterp",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.presetManagerBP.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Data/presetManager",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.r.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/r",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.randomBPFBP.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Data/randomBPF",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.randomFloat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/randomFloat",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.randomFunction.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/randomFunction",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/thru",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.thru3.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions-main/patchers/Utillities/thru3",
+				"bootpath" : "~/Desktop/BeamController/BeamControllerBPTest/patchers",
+				"patcherrelativepath" : "../../BeamController/BeamControllerBPTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
